@@ -41,5 +41,7 @@ end
 def winner(board)
   if triple_combo = won?(board)
     board[triple_combo.first]
+  else
+    nil
   end
 end
